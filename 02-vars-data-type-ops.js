@@ -324,4 +324,3 @@ console.log(addressStamp);
 
 let addressBlock = `${nameFirst} ${nameLast}\n${houseNum} ${city}, ${state} ${postCode}`;
 console.log(addressBlock);
-
