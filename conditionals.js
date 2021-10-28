@@ -305,13 +305,35 @@ switch (switchConditional == "string" || typeof switchConditional == "boolean") 
         console.log(`${switchConditional} is NOT a string or boolean.`);
 }
 
-//! Challenge 2: Take Home Challenge
+//! Challenge Take Home Switch Challenge
 /*
 Create a switch statement that takes in a value (number) that represents a grade.  If it is True, console log that they are passing with the correct letter grade.
 *   A: 89-100
 *   B: 79-88
 *   C: 66-78
 *   D: 59-65
-*   F: 0-59
+*   F: 0-58
 */
 
+let grades = 78;
+
+switch (true) {
+    case grades > 89:
+        console.log(`Passing with an A`)
+        break;
+    case grades > 79:
+        console.log(`Passing with a B`)
+        break;
+    case grades > 66:
+        console.log(`Passing with a C`)
+         break;
+    case grades > 59:
+        console.log(`Passing with a D`)
+        break;
+    case grades < 59:
+        console.log(`Failing`)
+        break;
+    default:
+        console.log(`Input is not a grade`)
+        break;
+}
