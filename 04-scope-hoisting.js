@@ -176,3 +176,22 @@ function sayHello() {
 // console.log(marvel) undefined
 var marvel = "Iron Man"
 console.log(marvel)
+
+//! Challenge
+// Create a function to remove the spaces found in a string
+// and return a string with spaces removed.
+
+function removeSpaces(string) {
+    let strRemoved = " ";
+    for (letter of string) {
+        //console.log(letter)
+        if (letter != " ") {
+            strRemoved += letter
+        }
+    }
+    return strRemoved
+}
+let adele = "Hello from the other side."
+removeSpaces(adele)
+
+console.log(removeSpaces(adele));
