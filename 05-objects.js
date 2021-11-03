@@ -51,9 +51,7 @@ let manager = {
     position: "manager",
     isActive: true,
     department: "technology",
-    reportsTo: [
-        "Paul", "Adam", "Ing"
-    ],
+    reportsTo: ["Paul", "Adam", "Ing"],
     caresFor:{
         trainees:["Corynne", "Isaiah"],
         learnA: ["Adam", "Chelsey"],
@@ -112,7 +110,7 @@ const presidents = [
         { first: 'Lyndon', last: 'Johnson', year: 1908, passed: 1973 },
         { first: 'Richard', last: 'Nixon', year: 1913, passed: 1994 },
         { first: 'Gerald', last: 'Ford', year: 1913, passed: 2006 },
-        { first: 'Jimmy', last: 'Carter', year: 1924, passed: undefined },
+        { first: 'Jimmy', last: 'Carter', year: 1924, passed: undefined},
         { first: 'Ronald', last: 'Reagan', year: 1911, passed: 2004 },
         { first: 'George', last: 'Bush', year: 1924, passed: 2018 },
         { first: 'Bill', last: 'Clinton', year: 1946, passed: undefined },
