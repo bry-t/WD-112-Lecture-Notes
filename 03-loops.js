@@ -196,3 +196,19 @@ for (var i=1; i < 101; i++){
     else if (i % 5 == 0) console.log("Buzz");
     else console.log(i);
 }
+
+//! While Loops
+/*
+    While loop executes a statement inside of a code block provided the while conidtion continues to evaluate to true. The condition is evaluated before executing the statement.
+*/
+
+let randInt = 32
+
+while (randInt > 0) {
+    randInt --
+    console.log(randInt);
+}
+
+//      while (true) {
+//         do something until false
+//      }

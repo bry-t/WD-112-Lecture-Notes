@@ -63,7 +63,7 @@ console.log(generateEmail("sucker@gmail.com", "Paul", "Warranty", "Mr. Scam Arti
 //Function Expression
 
 /*
-    Function expression utilizes variable as a place holder.
+    Function expression utilize variables as a place holder.
     Function expressions are NOT hoisted
 */
 
